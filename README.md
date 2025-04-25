@@ -4,13 +4,13 @@ Multi-Tool Research RAG Agent using LangChain, LangGraph, and Groq
 # 📌 Project Description:
 This project implements a multi-tool Retrieval-Augmented Generation (RAG) system designed for answering complex research queries using up-to-date information from multiple sources. It’s built using LangChain for agent orchestration, LangGraph for managing tool-based workflows, and a LLM hosted on Groq’s inference API for response synthesis.
 
-#📌 📑 Full Implementation Workflow:
-##🔸 1️⃣ User Query Input
+# 📌 📑 Full Implementation Workflow:
+## 🔸 1️⃣ User Query Input
 User sends a research question .
 
-##Example: “What are the latest developments in quantum computing?”
+## Example: “What are the latest developments in quantum computing?”
 
-#🔸 2️⃣ Agent Setup with LangChain
+# 🔸 2️⃣ Agent Setup with LangChain
 Created an LLMChain using Groq’s API endpoint to handle all natural language generation tasks.
 
 Registered multiple Tool classes (LangChain’s Tool abstraction) for:
@@ -23,7 +23,7 @@ arxiv — preprint and research article retrieval
 
 
 
-#🔸 3️⃣ Multi-Step Agent Logic via LangGraph
+# 🔸 3️⃣ Multi-Step Agent Logic via LangGraph
 Utilized LangGraph to manage the sequential execution of the agent workflow:
 
 Define graph nodes for each tool call
@@ -36,7 +36,7 @@ Data aggregation step to combine tool outputs
 
 LangGraph was ideal here for multi-tool branching and aggregation logic in a RAG setting.
 
-#🔸 4️⃣ Tool Calls and Retrieval
+# 🔸 4️⃣ Tool Calls and Retrieval
 Each registered tool was invoked by the agent in response to the query.
 
 The outputs include:
