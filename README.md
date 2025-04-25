@@ -1,5 +1,5 @@
 # 📌 Project Title:
-Multi-Tool Research RAG Agent using LangChain, LangGraph, and Groq
+## Multi-Tool Research RAG Agent using LangChain, LangGraph, and Groq
 
 # 📌 Project Description:
 This project implements a multi-tool Retrieval-Augmented Generation (RAG) system designed for answering complex research queries using up-to-date information from multiple sources. It’s built using LangChain for agent orchestration, LangGraph for managing tool-based workflows, and a LLM hosted on Groq’s inference API for response synthesis.
